@@ -108,4 +108,14 @@ If the direction or the balance cannot be found, the message is saved as **Needs
 
 ## Getting started
 
-**Requirements:** A recent Android Studio, and a phone or emulator running Android
+**Requirements:** A recent Android Studio, and a phone or emulator running Android 7.0 or newer.
+
+1. Clone the repository and open it in Android Studio.
+2. Add two short sound files named `why.mp3` and `how.mp3` to `app/src/main/res/raw/`. The goal notifications expect them, and the project will not build without them.
+3. Click **Sync Now**, then **Run**.
+4. On first launch, enter the last 4 digits of your own CBE account and allow the SMS and notification permissions.
+
+**Testing without a bank:** In the emulator, open Extended controls, then Phone, then SMS, and send a message with the sender set to `CBE`, for example:
+
+```text
+Dear Customer, You have successfully transferred ETB 500.00 from account 1*********1234 to account 1*********5678 (Sample Name) on 10/18/2026 at 10:15:00. Your current balance is ETB 9,500.00.
