@@ -10,7 +10,6 @@ Expensians reads the transaction messages that **CBE (Commercial Bank of Ethiopi
   <img width="180" alt="Home Screen" src="https://github.com/user-attachments/assets/61098ef3-e407-4081-aa9d-c4c67189d256" />
   <img width="180" alt="Transactions List" src="https://github.com/user-attachments/assets/ed410363-8a86-4b34-a721-db124a0ff819" />
   <img width="180" alt="Goals & Spending Limits" src="https://github.com/user-attachments/assets/b18673f3-fb95-4fff-82a7-16fc81a873e0" />
-  <img width="180" alt="Database Management" src="https://github.com/user-attachments/assets/92247d3d-9e79-4f3c-8ec2-9c0ec6ef3662" />
   <img width="180" alt="Settings & Customization" src="https://github.com/user-attachments/assets/5bc80631-ec80-43d9-b0a3-e5ac2d6a9a8c" />
 </p>
 
