@@ -114,7 +114,24 @@ If the direction or the balance cannot be found, the message is saved as **Needs
 3. Click **Sync Now**, then **Run**.
 4. On first launch, enter the last 4 digits of your own CBE account and allow the SMS and notification permissions.
 
-**Testing without a bank:** In the emulator, open Extended controls, then Phone, then SMS, and send a message with the sender set to `CBE`, for example:
+**Testing without a bank:** In the emulator, open Extended controls, then Phone, then SMS, and send a message with the sender set to `CBE`, ## Install
 
-```text
-Dear Customer, You have successfully transferred ETB 500.00 from account 1*********1234 to account 1*********5678 (Sample Name) on 10/18/2026 at 10:15:00. Your current balance is ETB 9,500.00.
+1. Download the APK (pick the command for your system, or open the link on your phone):
+   https://github.com/kevofar/Expensians/releases/download/v1.0.0/app-debug.apk
+
+   **Windows (PowerShell)**
+```powershell
+   New-Item -ItemType Directory -Force "$HOME\Downloads\Expensians" | Out-Null
+   Invoke-WebRequest "https://github.com/kevofar/Expensians/releases/download/v1.0.0/app-debug.apk" -OutFile "$HOME\Downloads\Expensians\app-debug.apk"
+   explorer "$HOME\Downloads\Expensians"
+```
+
+   **macOS / Linux**
+```bash
+   mkdir -p ~/Downloads/Expensians
+   curl -L -o ~/Downloads/Expensians/app-debug.apk https://github.com/kevofar/Expensians/releases/download/v1.0.0/app-debug.apk
+```
+
+2. Copy `app-debug.apk` to your phone (USB cable, Bluetooth, Telegram, Drive).
+3. Tap the file on your phone and allow "Install unknown apps" if asked.
+4. If SMS permission is blocked: Settings → Apps → Expensians → ⋮ → Allow restricted settings.
